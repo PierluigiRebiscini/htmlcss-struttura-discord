@@ -3,3 +3,42 @@
     padding: 0;
 box-sizing: border-box;
 }
+
+header{
+    background-color: aqua;
+}
+
+.conteiner{
+    display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+.pad-div{
+    padding: 5px
+}
+.bg-nav{
+
+    background-color: goldenrod;
+    border: dashed black 1px;
+    
+
+}
+
+
+
+.login{
+    flex-basis: 10%;
+    text-align: end;
+   
+}
+.link{
+    flex-basis: 50%;
+    text-align: center;
+     
+    
+}
+.logo{
+    flex-basis: 10%;
+    
+}
