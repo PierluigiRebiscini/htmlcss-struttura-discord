@@ -7,6 +7,13 @@ box-sizing: border-box;
 header{
     background-color: aqua;
 }
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
 
 .conteiner{
     display: flex;
@@ -34,7 +41,7 @@ padding: 10px;
 }
 .link{
     flex-basis: 50%;
-    text-align: center;
+    
      
     
 }
